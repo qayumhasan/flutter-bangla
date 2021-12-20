@@ -6,3 +6,7 @@
 ```
 iconTheme: IconThemeData(color: appStore.isDarkMode ? Colors.white : Colors.black),
 ```
+## mobx install
+  ```
+    flutter package pub run build_runner build
+  ```
