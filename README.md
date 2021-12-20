@@ -10,3 +10,7 @@ iconTheme: IconThemeData(color: appStore.isDarkMode ? Colors.white : Colors.blac
   ```
     flutter package pub run build_runner build
   ```
+## Wrap direction
+```
+  direction: Axis.horizontal,
+```
