@@ -43,3 +43,18 @@ abstract class _AppStore with Store {
               ),
             ));
 ```
+
+## Build Command  
+  ```
+  ```
+  
+ ## Packages
+ ```
+  flutter_mobx: ^2.0.2
+  mobx: ^2.0.5
+ ```
+ ## dev
+ ```
+ mobx_codegen: ^2.0.4
+ build_runner: ^2.1.7
+ ```
