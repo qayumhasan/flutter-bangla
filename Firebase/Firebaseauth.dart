@@ -46,14 +46,6 @@ class _AuthState extends State<Auth> {
   TextEditingController emailCont = TextEditingController();
   TextEditingController passwordCont = TextEditingController();
 
-  Future login() async {
-    var request = {
-      UserKeys.email: emailCont.text,
-      UserKeys.password: passwordCont.text,
-    };
-    log(request);
-  }
-
   static Future<User?> loginUsingEmailPassword(
       {required String email,
       required String password,
