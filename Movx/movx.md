@@ -45,8 +45,21 @@ abstract class _AppStore with Store {
 ```
 
 ## Build Command  
+In AppStore.dart file write 
+```
+
+part 'AppStore.g.dart';
+
+class AppStore = _AppStore with _$AppStore;
+```
+Than command this line
   ```
+  flutter packages pub run build_runner build
   ```
+  
+  Before this you need to install two packages  mobx_codegen: ^2.0.4
+ build_runner: ^2.1.7
+  
   
  ## Packages
  ```
