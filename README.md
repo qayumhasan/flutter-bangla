@@ -14,3 +14,5 @@ iconTheme: IconThemeData(color: appStore.isDarkMode ? Colors.white : Colors.blac
 ```
   direction: Axis.horizontal,
 ```
+
+https://github.com/navaneeth-algorithm/TorrentSites
