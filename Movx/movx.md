@@ -51,7 +51,10 @@ In AppStore.dart file write
 part 'AppStore.g.dart';
 
 class AppStore = _AppStore with _$AppStore;
+
 ```
+
+when you add this line it show an arror just ignore it. when you run below command it generate AppStore.g.dart file.
 Than command this line
   ```
   flutter packages pub run build_runner build
